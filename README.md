@@ -1,4 +1,4 @@
-##vrealize-orchestrator-support Scripts##
+## vrealize-orchestrator-support Scripts ##
 ===================
 
 
@@ -7,7 +7,7 @@ A collection of scripts used to troubleshoot, repair, and enhance VMware vRealiz
 ----------
 
 
-#### rebuild_jssecacerts.sh
+#### rebuild_jssecacerts.sh ####
 -------------
 
 This script will rebuilt damaged jseccacerts file using the following steps:
