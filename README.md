@@ -1,8 +1,9 @@
-## vrealize-orchestrator-support Scripts ##
+# vrealize-orchestrator-support Scripts #
+
 A collection of scripts used to troubleshoot, repair, and enhance VMware vRealize Orchestrator Appliance.
 ----------
 
-#### rebuild_jssecacerts.sh ####
+### rebuild_jssecacerts.sh ###
 This script will rebuilt damaged jseccacerts file using the following steps:
 > 1. Remove jssecacerts
 > 2. Recreate it via: keytool -keystore /etc/vco/app-server/security/jssecacerts -storepass <STORE_PASS>
